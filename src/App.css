@@ -1,32 +1,98 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+html, body {
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.grey {
+  background: #272727;
+}
+
+.blue {
+  background: #628395;
+}
+
+.green {
+  background: #606D5D;
+}
+
+.brown {
+background: #453F3C;
+}
+
+.red {
+ background: #732C2C;
+}
+
+.pink {
+background: #D89A9E;
+}
+
+.cream {
+  background: #D5C7BC;
+}
+
+.purple {
+  background: #4B3F72;
+}
+
+
+
+.content {
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+  color: white;
+}
+body {
+  margin: 0;
+}
+
+a:hover {
+  color: #D29F3F;
+}
+
+
+.logo {
+  max-height: 90%;
+  max-width: 90%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+a {
+  text-decoration-line: none;
+  -webkit-text-decoration-line: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
